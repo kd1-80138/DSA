@@ -8,10 +8,11 @@ public class PogramMain {
 			ele=arr[i];
 			
 			for(int j=i+1;j<arr.length;j++) {
+			if(i!=j){
 				if(ele==arr[j]) {
 					ele=0;
 				}
-				
+			   }	
 			}
 			if(ele!=0) {
 				return ele;
